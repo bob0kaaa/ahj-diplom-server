@@ -1,0 +1,27 @@
+{
+  "name": "ahj-diplom-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "start-node": "nodemon server.js"
+  },
+  "author": "alidf",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mime": "^3.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
